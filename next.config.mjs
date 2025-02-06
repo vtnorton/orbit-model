@@ -13,6 +13,7 @@ const withMDX = nextMdx({
 const nextConfig = {
   basePath: process.env.BASE_PATH || "",
   reactStrictMode: true,
+  output: 'standalone',
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   github: {
     silent: true,

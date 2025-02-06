@@ -1,4 +1,4 @@
-import G6 from "@antv/g6";
+// import G6 from "@antv/g6";
 import React, { useEffect } from "react";
 import {
   nodeStateStyles,
@@ -38,20 +38,20 @@ export default function Graph({ data, height = 400 }) {
         ],
       },
     };
-    const newGraph = new G6.Graph({
-      container,
-      height,
-      width: container.scrollWidth,
-      layout: layout,
-      ...graphProperties,
-    });
+    // const newGraph = new G6.Graph({
+    //   container,
+    //   height,
+    //   width: container.scrollWidth,
+    //   layout: layout,
+    //   ...graphProperties,
+    // });
 
-    newGraph.data(data);
-    newGraph.render();
+    // newGraph.data(data);
+    // newGraph.render();
 
-    return () => {
-      newGraph.destroy();
-    };
+    // return () => {
+    //   // newGraph.destroy();
+    // };
   });
 
   return (

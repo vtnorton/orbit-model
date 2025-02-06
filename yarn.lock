@@ -1574,11 +1574,6 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
-fathom-client@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.npmjs.org/fathom-client/-/fathom-client-3.4.1.tgz"
-  integrity sha512-iQFKx9B9RDeGLzgNqsaXWg3Fvu7yfq1Z8GjpAG3DP8IoGoPRWOOktpM7DUKiUzoE3d37hdvDQvkqUHfNzVwimg==
-
 fecha@~4.2.0:
   version "4.2.1"
   resolved "https://registry.npmjs.org/fecha/-/fecha-4.2.1.tgz"
